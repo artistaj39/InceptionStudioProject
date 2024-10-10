@@ -390,6 +390,26 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 85f7589f4cd25b1459d90b1834f89cb9, type: 2}
+    - target: {fileID: 5215083184572121289, guid: a51b8375997d5c24b8bf6e064c6eb3bd, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 9.15
+      objectReference: {fileID: 0}
+    - target: {fileID: 5215083184572121289, guid: a51b8375997d5c24b8bf6e064c6eb3bd, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 5215083184572121289, guid: a51b8375997d5c24b8bf6e064c6eb3bd, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 5215083184572121289, guid: a51b8375997d5c24b8bf6e064c6eb3bd, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5215083184572121289, guid: a51b8375997d5c24b8bf6e064c6eb3bd, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 90
+      objectReference: {fileID: 0}
     - target: {fileID: 5371234022953007810, guid: a51b8375997d5c24b8bf6e064c6eb3bd, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -553,7 +573,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cfcda25ad4c614a448740eb8cc2e969f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  controller: {fileID: 0}
+  controller: {fileID: 1685387709}
   rooms:
   - {fileID: 944294289}
   - {fileID: 1282351115}
@@ -1993,6 +2013,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dee3af6602d9ea14b848581563038a05, type: 3}
+--- !u!1 &1685387709 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1981101350170872558, guid: dee3af6602d9ea14b848581563038a05, type: 3}
+  m_PrefabInstance: {fileID: 1685387707}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1811717915 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2317313293323024454, guid: a51b8375997d5c24b8bf6e064c6eb3bd, type: 3}
